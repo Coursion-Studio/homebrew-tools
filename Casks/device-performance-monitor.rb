@@ -1,6 +1,6 @@
 cask "device-performance-monitor" do
-  version "1.0.2"
-  sha256 "0e46f60d98f75b0d27de6dd0730d169087a8b7c6074c8fc0fb6a8eb5af790695"
+  version "1.0.3"
+  sha256 "4af65f3866fafd01ce55280f33fb068596c69b823b1c6c51c24fd308ae46b1ac"
 
   url "https://github.com/Coursion-Studio/device-performance-monitor/releases/download/v#{version}/DevicePerformanceMonitor-#{version}.dmg",
       verified: "github.com/Coursion-Studio/device-performance-monitor/"
