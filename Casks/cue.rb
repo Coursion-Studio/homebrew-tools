@@ -1,6 +1,6 @@
 cask "cue" do
-  version "0.3.1"
-  sha256 "26b990a5cf5e4e4358210bb7540efd422554fabc6ee8b863c6a9a549800e2a26"
+  version "0.4.0"
+  sha256 "82ddececb122163b090610d0e3ad5f7f5714f2d39157bf4c02dc3cc0fa1194ba"
 
   url "https://github.com/Coursion-Studio/cue/releases/download/v#{version}/Cue-#{version}.dmg",
       verified: "github.com/Coursion-Studio/cue/"
