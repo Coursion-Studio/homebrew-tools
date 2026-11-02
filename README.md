@@ -15,5 +15,11 @@ brew install --cask Coursion-Studio/tools/cue
 | `cue` | Native macOS terminal with a composer, command cards and AI help from your own Claude. |
 | `device-performance-monitor` | Live memory, CPU, thread and frame-rate monitoring for one app on an Android device, an iOS Simulator, or a real iPhone or iPad. |
 
+## Formulae
+
+| Formula | What it is |
+| --- | --- |
+| `amazon-cart-price-changes` | Browser extension (Dia, Chrome, Arc, Brave, Edge): your Amazon cart and saved-for-later price changes as cards or a table, with history. `brew install Coursion-Studio/tools/amazon-cart-price-changes`, then load the folder it prints with "Load unpacked". |
+
 Apps that have not shipped yet live in a separate, private tap and move here
 when they are ready to be installed by anyone.
