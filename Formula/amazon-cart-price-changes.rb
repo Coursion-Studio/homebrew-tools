@@ -1,8 +1,8 @@
 class AmazonCartPriceChanges < Formula
   desc "Browser extension showing Amazon cart price changes as cards or a table"
   homepage "https://github.com/Coursion-Studio/amazon-cart-price-changes"
-  url "https://github.com/Coursion-Studio/amazon-cart-price-changes/releases/download/v1.1.2/amazon-cart-price-changes-1.1.2.zip"
-  sha256 "45f40043892d08aa168eb233ddb3edfc603ce653cb1d894d2d78c8a92a4ef5fc"
+  url "https://github.com/Coursion-Studio/amazon-cart-price-changes/releases/download/v1.2.0/amazon-cart-price-changes-1.2.0.zip"
+  sha256 "b98907afc6c96794bdda64822ec88041b243475bb336e23a7f0f8874b790f779"
   license "MIT"
 
   def install
