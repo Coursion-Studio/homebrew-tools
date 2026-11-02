@@ -1,12 +1,12 @@
 class AmazonCartPriceChanges < Formula
-  desc "Browser extension: Amazon cart and saved-for-later price changes as cards or a table"
+  desc "Browser extension showing Amazon cart price changes as cards or a table"
   homepage "https://github.com/Coursion-Studio/amazon-cart-price-changes"
   url "https://github.com/Coursion-Studio/amazon-cart-price-changes/releases/download/v1.0.0/amazon-cart-price-changes-1.0.0.zip"
   sha256 "c6a2bc73967aa51a0a711396075af93c32308d6a3c63df881854e3cebe1fc3e9"
   license "MIT"
 
   def install
-    (share/"amazon-cart-price-changes").install Dir["*"]
+    pkgshare.install Dir["*"]
   end
 
   def caveats
@@ -20,6 +20,6 @@ class AmazonCartPriceChanges < Formula
   end
 
   test do
-    assert_match "Cart Price Changes for Amazon", (share/"amazon-cart-price-changes/manifest.json").read
+    assert_match "Cart Price Changes for Amazon", (pkgshare/"manifest.json").read
   end
 end
