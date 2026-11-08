@@ -2,8 +2,8 @@ cask "rift" do
   # version + sha256 are bumped automatically by the macos-release pipeline on
   # each release (it sed-rewrites both lines). The all-zero sha is a placeholder
   # until Rift's first release ships; `brew install` activates with that release.
-  version "1.2.1"
-  sha256 "10bf02024e88b2f2e2858edc5a40ff87eb0c6d277061889f134585099f31ae63"
+  version "1.2.2"
+  sha256 "f72a481333fa0d11c86c5108dc67f34dc4dfdfd41f08297c7f154849510d7c40"
 
   url "https://github.com/Coursion-Studio/rift-website/releases/download/v#{version}/Rift-#{version}.dmg",
       verified: "github.com/Coursion-Studio/rift-website/"
